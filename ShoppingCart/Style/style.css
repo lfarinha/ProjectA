@@ -1,0 +1,112 @@
+@CHARSET "ISO-8859-1";
+
+.container{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#header {
+    background-color: black;
+    color:white;
+    padding:5px;
+    border-bottom: 2px solid black;
+    font-family: sans-serif;
+}
+#nav {
+    border-right: 10px solid #eeeeee;
+    border-right-style: groove;
+    line-height:30px;
+    background-color: #eeeeee;
+    height:1200px;
+    width:130px;
+    float:left;
+    padding:5px;
+    
+}
+#section {
+    width: 950px;
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#aside{
+    width: 155px;
+    height: 1200px;
+    float: right;
+    padding: 158px 52px 100px 20px;
+}
+
+#footer {
+    background-color: black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    border-top: 2px solid black;
+}
+
+body{
+    width:100%;
+}
+
+form    {
+background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+margin:auto;
+position:relative;
+width:550px;
+height:450px;
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 14px;
+font-style: Bold;
+line-height: 24px;
+font-weight: bold;
+color: #09C;
+text-decoration: none;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding:10px;
+border: 1px solid #999;
+border: inset 1px solid #333;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-top: 80px;
+}
+
+li {
+    float: left;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: black;
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a:hover, a:active {
+    background-color: #cccccc;
+}
+
+a.formBox{
+	background: white;
+}
+
